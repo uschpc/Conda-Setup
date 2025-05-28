@@ -32,13 +32,7 @@ This script (`carc_conda_setup.py`) is an interactive utility to help users set 
    ssh [your-username]@discovery.usc.edu
    ```
 
-2. **Load Conda (if not in your path):**
-
-   ```bash
-   module load anaconda3
-   ```
-
-3. **Run the script:**
+2. **Run the script:**
 
    ```bash
    python3 carc_conda_setup.py
@@ -46,7 +40,7 @@ This script (`carc_conda_setup.py`) is an interactive utility to help users set 
 
    The script will walk you through the setup interactively.
 
-4. **Re-run support:**
+3. **Re-run support:**
 
    The script tracks whether it’s your first time running it using a hidden config file stored at `~/.carc_conda_config.json`. If already initialized, it will skip some steps to avoid redundant setup.
 
