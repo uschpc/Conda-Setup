@@ -4,4 +4,4 @@ This script (`carc_conda_setup.py`) is an interactive utility to help users set 
 
 To request an interactie session:
 
-```salloc --partition=gpu --gres=gpu:v100:1 --cpus-per-task=8 --mem=32GB --time=1:00:00 ```
+```salloc --partition=gpu --gres=gpu:v100:1 --cpus-per-task=16 --mem=64GB --time=1:00:00 ```
