@@ -21,7 +21,7 @@ class CARCCondaSetup:
         self.total_steps = 6
         self.status = {}
         self.is_first_time = True
-        self.env_name = "pytorch_env"
+        self.env_name = "torch-env"
         self.python_version = "3.12"  # Using 3.12 
         self.home_dir = os.path.expanduser("~")
         self.config_file = os.path.join(self.home_dir, ".carc_conda_config.json")
@@ -158,7 +158,7 @@ class CARCCondaSetup:
     def install_additional_packages(self):
         """Install additional data science packages."""
         print(f"\nStep 5: Installing additional packages in environment '{self.env_name}'...")
-        packages = ["numpy", "pandas", "scikit-learn", "matplotlib"]
+        packages = ["numpy", "pandas", "scikit-learn", "matplotlib", "line_profiler"]
         
         try:
             init_cmd = "eval \"$(conda shell.bash hook)\""
