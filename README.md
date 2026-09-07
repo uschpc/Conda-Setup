@@ -23,8 +23,8 @@ mkdir CARC
 cd CARC
 ```
 ```
-git clone https://github.com/uschpc/TAC450-DataScience-Fall2026
-cd TAC450-DataScience-Fall2026/week3
+git clone https://github.com/uschpc/Conda-Setup.git
+cd Conda-Setup
 ```
 ```
 module load conda
