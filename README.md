@@ -7,7 +7,7 @@ We will use Conda to build software packages. We have prepared a setup script fo
 
 First, we need to request an interactive session. 
 
-For TRGN599 class, If the reservation is not available, please use the following command to request an interactive session: 
+For TRGN599 class, please use the following command to request an interactive session: 
 ```bash
 salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=01:00:00 --account=sli68423_1965
 ```
