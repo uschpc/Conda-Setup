@@ -17,7 +17,7 @@ If the GPU partition is busy, try the main partition instead,
 salloc --partition=main --cpus-per-task=8 --mem=32GB --time=01:00:00 --account=sli68423_1965
 ```
 
-If the reservation is not available, please use the following command to request an interactive session: 
+For other students, ff the reservation is not available, please use the following command to request an interactive session: 
 ```bash
 salloc --partition=gpu --gres=gpu:1 --cpus-per-task=8 --mem=32GB --time=01:00:00 --account=<your_project_account>
 ```
